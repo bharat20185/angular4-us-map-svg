@@ -1,7 +1,7 @@
 # angular4-us-map-svg
 Angular 4 Module for US SVG MAP
 
-![us-map](https://user-images.githubusercontent.com/17896904/28907343-4c360a7c-783b-11e7-962e-368ed6f8a636.png)
+![usmap](https://user-images.githubusercontent.com/17896904/28911043-c754c656-784c-11e7-9f2a-47f7304b6811.png)
 
 Step to use this map for your project.
 
