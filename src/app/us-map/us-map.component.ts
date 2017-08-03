@@ -8,7 +8,9 @@ import { UsMapService } from './us-map.service';
 })
 export class UsMapComponent implements OnInit {
 	coordinates: object;
-	@Input() fillColor: string;
+	@Input() fillColor: string = "#FFFFFF";
+	@Input() fillStateColor: string = "#FF9900";
+	@Input() strokeColor: string = "#000000";
   	@Output('onMapClick') click = new EventEmitter();
 
   	constructor(private usMapService: UsMapService) { }

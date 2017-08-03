@@ -1,10 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="895" y="130" width="30" height="17" id="MA_1" (click)="onUsMapClick('MA')"/>
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="890" y="182" width="21" height="17" id="RI_1" (click)="onUsMapClick('RI')"/>
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="869" y="196" width="21" height="18" id="CT_1" (click)="onUsMapClick('CT')"/>
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="851" y="216" width="21" height="18" id="NJ_1" (click)="onUsMapClick('NJ')"/>
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="843" y="240" width="24" height="18" id="DE_1" (click)="onUsMapClick('DE')"/>
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="843" y="261" width="30" height="18" id="MD_1" (click)="onUsMapClick('MD')"/>
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="817" y="82" width="27" height="18" id="VT_1" (click)="onUsMapClick('VT')"/>
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="837" y="66" width="27" height="18" id="NH_1" (click)="onUsMapClick('NH')"/>
+    <rect [attr.fill]="fillStateColor" [attr.stroke]="strokeColor" x="361" y="562" width="24" height="18" id="HI_1" (click)="onUsMapClick('HI')"/>
     <g>
         <path 
             *ngFor="let coordinate of coordinates;let i = index"
             [attr.id]="coordinate.id"
             [attr.d]="coordinate.d"
-            fill="#D3D3D3"
+            [attr.fill]="fillStateColor"
+            [attr.stroke]="strokeColor"            
             (click)="onUsMapClick(coordinate.id)"
         >
         </path>
@@ -69,6 +79,6 @@
         <g id="DC">
             <path id="DC1" fill="#D3D3D3" d="M801.8,253.8 l-1.1-1.6 -1-0.8 1.1-1.6 2.2,1.5z"/>
             <circle id="DC2" fill="#D3D3D3" stroke="#FFFFFF" stroke-width="1.5" cx="801.3" cy="251.8" r="5" opacity="0"/> <!-- Set opacity to "0" to hide DC circle -->
-        </g>
+        </g>        
     </g>
 </svg>
