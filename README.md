@@ -10,4 +10,5 @@ Step to use this map for your project.
 3. You are almost done. now use <us-map> component anywhere in your project.
 4. You can emit event using "onMapClick" event. It will retrun us state name abbr.
 5. Also, you can change state abbr color using "fillColor" input.
-6. Moreover, you can apply your own css to beautify this component.
+6. Allow fillStateColor & strokeColor.
+7. Moreover, you can apply your own css to beautify this component.
