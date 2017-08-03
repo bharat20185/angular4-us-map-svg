@@ -24,11 +24,11 @@ You need to add this module in @NgModule(Imports). That's it.
 
 ### Inputs
 
-| fillColor | Type: `string` Optional. Will change color of state name text |
+| fillColor      | Type: `string` Optional. Will change color of state name text       |
 
 | fillStateColor | Type: `string` Optional. Will change background color of state area |
 
-| strokeColor | Type: `string` Optional. Will change border color of state area |
+| strokeColor    | Type: `string` Optional. Will change border color of state area     |
 
 ### Output
 
