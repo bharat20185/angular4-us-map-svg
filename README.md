@@ -31,7 +31,8 @@ You need to add this module in @NgModule(Imports). That's it.
 | `strokeColor`    | Type: `string` Optional. Will change border color of state area     |
 
 ### Output
-
-| onMapClick | Will be emitted when state area has been clicked. It returns `state abbr`. (onMapClick) event.
+|||
+|-|-|
+| `onMapClick` | Will be emitted when state area has been clicked. It returns `state abbr`. (onMapClick) event. |
 
 Moreover, you can apply your own css to beautify this component.
