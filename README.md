@@ -26,9 +26,9 @@ You need to add this module in @NgModule(Imports). That's it.
 
 |||
 |-|-|
-| `fillColor`      | Type: `string` Optional. Will change color of state name text       |
-| `fillStateColor` | Type: `string` Optional. Will change background color of state area |
-| `strokeColor`    | Type: `string` Optional. Will change border color of state area     |
+| `fillColor`      | Type: `string` Optional. Will change color of state name text. For Example: `fillColor="#C0C0C0"`       |
+| `fillStateColor` | Type: `string` Optional. Will change background color of state area. For Example: `fillStateColor="#C0C0C0"` |
+| `strokeColor`    | Type: `string` Optional. Will change border color of state area. For Example: `strokeColor="#C0C0C0"`     |
 
 ### Output
 |||
